@@ -79,7 +79,7 @@ app.get('/', async (req, res) => {
       topRated: topRated.results || []
     });
 
-    res.send(renderLayout('Site4kfilme — Filme online subtitrate in romana', content));
+    res.send(renderLayout('Site4kfilme — Filme online subtitrate in Romana HD', content));
   } catch (err) {
     console.error('Home Error:', err);
     res.status(500).send('A apărut o eroare pe server.');
