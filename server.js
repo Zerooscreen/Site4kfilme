@@ -173,5 +173,5 @@ app.get('/actor/:id', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Serverul filmehd4K Frulează pe portul ${PORT}`);
+  console.log(`Serverul site4kfilme Frulează pe portul ${PORT}`);
 });
